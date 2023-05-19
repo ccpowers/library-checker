@@ -2,7 +2,7 @@
   "name": "library-checker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "library_check.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csv-parse": "^5.3.10",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2"
   }
 }
