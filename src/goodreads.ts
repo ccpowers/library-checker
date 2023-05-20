@@ -21,7 +21,9 @@ export function goodreads_from_csv(path: fs.PathOrFileDescriptor) : GoodreadsEnt
     // todo skip first entry
     const goodreads_entries: GoodreadsEntry[] = csv_entries.map((csv_entry: any) => {
         return {book_id: csv_entry[0],
-            title: csv_entry[1]
+            title: csv_entry[1],
+            author: csv_entry[2],
+            isbn: csv_entry[5]
         }
     });
 

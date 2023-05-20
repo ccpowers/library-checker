@@ -2,5 +2,5 @@
     "outDir": "dist"
   },
   "include": ["src/**/*.ts"],
-    "extends": "@tsconfig/recommended/tsconfig.json"
+  "extends": "@tsconfig/recommended/tsconfig.json"
 }

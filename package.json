@@ -4,7 +4,7 @@
   "description": "",
   "main": "library_check.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha dist/*.spec.js",
     "build": "tsc -p tsconfig.json",
     "library_check": "node dist/library_check.js"
   },
@@ -17,6 +17,10 @@
     "typescript": "^5.0.4"
   },
   "devDependencies": {
-    "@tsconfig/recommended": "^1.0.2"
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }

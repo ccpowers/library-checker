@@ -6,3 +6,9 @@ A small project to check availability of shelved books from good reads in your l
 
 Goodreads does not support API access (LINK HERE), so you'll need to export your data. Follow instructions (LINK HERE) to do so.
 
+
+## Technical Description
+
+### CSV
+For fun, I decided to write my own little csv parser for this project. It's in `csv.ts`. 
+
